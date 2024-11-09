@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: #121255;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#cabeca{
+    color: #dddddd;
+}
+form>*{
+    margin: 7px 5px ;
+}
+h1{
+    font-size: 40px;
+}
+.addTarefa>input{
+    padding: 1ch;
+}
+.buttons{
+    display: flex;
+    width: 363px;
+    justify-content: space-between;
+}
+.buttons > *{
+    margin-right: 10px;
+}
+.listaConversivel{
+    height: max-content;
+    width: 500px;
+}
+.listaConversivel>li{
+    color: #dddddd;
+}
